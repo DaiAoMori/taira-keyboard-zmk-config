@@ -61,9 +61,9 @@
  */
                         bindings = <
 &trans          &trans &trans &trans &trans &trans                                                                                               &trans	&trans	&trans	&trans	&trans &kp DEL
-&trans          &trans &trans &trans &trans &trans                                                                                              &trans  &kp LBRC &kp UP &kp SEMI  &kp A(8) &kp  A(9)
-&trans          &kp SQT &kp MINUS &trans &trans &trans                                                                                          &trans  &kp LEFT &kp DOWN &kp RIGHT  &kp A(5) &kp  A(6)   
-&trans          &trans    &trans    &trans   &trans   &trans          &trans       &trans         &trans       &kp UP                 &kp S(8)   &kp S(9)   &trans    &trans   &trans    &trans
+&trans          &trans &trans &trans &trans &trans                                                                                              &trans  &kp LBRC &kp UP &kp SEMI  &kp A(N8) &kp  A(N9)
+&trans          &kp SQT &kp MINUS &trans &trans &trans                                                                                          &trans  &kp LEFT &kp DOWN &kp RIGHT  &kp A(N5) &kp  A(N6)   
+&trans          &trans    &trans    &trans   &trans   &trans          &trans       &trans         &trans       &kp UP                 &kp S(N8)   &kp S(N9)   &trans    &trans   &trans    &trans
 &trans         &trans       &trans       &trans               &trans    &trans     &trans        &kp LEFT      &kp DOWN    &kp RIGHT          &kp RSHFT      &trans     &trans        &trans
                         >;
                 };
