@@ -63,7 +63,7 @@
 &trans          &trans &trans &trans &trans &trans                                                                                               &trans	&trans	&trans	&trans	&trans &kp DEL
 &trans          &trans &trans &trans &trans &trans                                                                                              &trans  &kp LBRC &kp UP &kp SEMI  &kp LA(N8) &kp  LA(N9)
 &trans          &kp SQT &kp MINUS &trans &trans &trans                                                                                          &trans  &kp LEFT &kp DOWN &kp RIGHT  &kp LA(N5) &kp  LA(N6)   
-&trans          &trans    &trans    &trans   &trans   &trans          &trans       &trans         &trans       &kp UP                 &kp S(N8)   &kp S(N9)   &trans    &trans   &trans    &trans
+&trans          &trans    &trans    &trans   &trans   &trans          &trans       &trans         &trans       &kp UP                 &kp RS(N8)   &kp RS(N9)   &trans    &trans   &trans    &trans
 &trans         &trans       &trans       &trans               &trans    &trans     &trans        &kp LEFT      &kp DOWN    &kp RIGHT          &kp RSHFT      &trans     &trans        &trans
                         >;
                 };
