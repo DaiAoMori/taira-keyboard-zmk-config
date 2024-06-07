@@ -121,7 +121,7 @@
 
 /*
 example_layer {
-/* QWERTY
+* QWERTY
  * .----------------------------------------------------------------------------------------------------------------------------------.
  * |  `   |   1  |   2  |   3  |   4  |   5  |                                              |   6  |   7  |   8  |   9  |   0  | PScr |
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
@@ -133,7 +133,7 @@ example_layer {
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Ctrl | Alt  | Meta | Alt  |             | Meta | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
- */
+ *
                         bindings = <
 &trans          &trans &trans &trans &trans &trans                                                                                              &trans          &trans &trans &trans &trans &trans
 &trans          &trans &trans &trans &trans &trans                                                                                              &trans          &trans &trans &trans &trans &trans
@@ -142,4 +142,4 @@ example_layer {
 &trans         &trans       &trans       &trans               &trans    &trans     &trans          &trans      &trans      &trans                       &trans &trans &trans &trans
                         >;
                 };
-                */
+*/
