@@ -22,6 +22,17 @@
         keymap {
                 compatible = "zmk,keymap";
 
+		 macros {
+       			GRAVE_ACCENT: grave_accent {
+            			label = "`";
+            			bindings = <&kp U+0060>;  // Unicode for grave accent `
+        		};
+        		ACUTE_ACCENT: acute_accent {
+            			label = "´";
+            			bindings = <&kp U+00B4>;  // Unicode for acute accent ´
+        		};
+    	};
+
                 default_layer {
 /* QWERTY
  * .----------------------------------------------------------------------------------------------------------------------------------.
@@ -48,7 +59,7 @@
                 arrows_layer {
 /* QWERTY
  * .----------------------------------------------------------------------------------------------------------------------------------.
- * | Esc  |   1  |   2  |   3  |   4  |   5  |                                              |   6  |   7  |   8  |   9  |   0  |  Del |
+ * | Esc  |   1  |   2  |   3  |   4  |   5  |                                              |   6  |   7  |   8  |   9  |  ´ ` |  Del |
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Tab  |   Q  |   W  |   E  |   R  |   T  |                                              |   Z  |   Ü  |  UP  |   Ö  |   {  |  }   |
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
@@ -60,7 +71,7 @@
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
-&trans          &trans &trans &trans &trans &trans                                                                                               &trans	&trans	&trans	&trans	&trans &kp DEL
+&trans          &trans &trans &trans &trans &trans                                                                                               &trans	&trans	&trans	&trans	&mt LS(GRAVE_ACCENT) ACUTE_ACCENT &kp DEL
 &trans          &trans &trans &trans &trans &trans                                                                                              &trans  &kp LBKT &kp UP &kp SEMI  &kp LA(N8) &kp  LA(N9)
 &trans          &kp SQT &kp MINUS &trans &trans &trans                                                                                          &kp LA(N)  &kp LEFT &kp DOWN &kp RIGHT  &kp LA(N5) &kp  LA(N6)   
 &trans          &trans    &trans    &trans   &trans   &trans          &trans       &trans   &trans        &kp  LA(N7)                    &kp RS(N8)   &kp RS(N9)   &kp GRAVE    &kp LS(GRAVE)   &trans    &trans
