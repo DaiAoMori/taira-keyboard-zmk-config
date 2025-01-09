@@ -61,7 +61,7 @@
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
-&trans          &trans &trans &trans &trans &trans                                                                                               &trans	&trans	&trans	&trans	&kp NON_US_BACKSLASH &kp DEL
+&trans          &trans &trans &trans &trans &trans                                                                                               &trans	&trans	&trans	&trans	&kp EQUAL &kp DEL
 &trans          &trans &trans &trans &trans &trans                                                                                              &trans  &kp LBKT &kp UP &kp SEMI  &kp LA(N8) &kp  LA(N9)
 &trans          &kp SQT &kp MINUS &trans &trans &trans                                                                                          &kp LA(N)  &kp LEFT &kp DOWN &kp RIGHT  &kp LA(N5) &kp  LA(N6)   
 &trans          &trans    &trans    &trans   &trans   &trans          &trans       &trans   &trans        &kp  LA(N7)                    &kp RS(N8)   &kp RS(N9)   &kp GRAVE    &kp LS(GRAVE)   &trans    &trans
