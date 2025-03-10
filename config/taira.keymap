@@ -43,7 +43,7 @@
 &kp  TAB      &kp  Q     &kp  W      &kp  E      &kp  R     &kp  T                                                                         &kp  Y   &kp  U     &kp  I      &kp  O     &kp  P        &kp  RBKT
 &mo  NUMROW &kp  A     &kp  S      &kp  D      &kp  F     &kp  G                                                                         &kp  H   &kp  J     &kp  K      &kp  L     &kp  GRAVE     &kp  BSLH
 &kp  LSHFT    &kp  Z     &kp  X      &kp  C      &kp  V     &kp  B             &kp  LA(LEFT)    &kp  LA(RIGHT)    &mo  ADJUST  &kp  LS(N7)             &kp  N   &kp  M     &kp  COMMA  &kp  DOT   &kp  SLASH    &kp  RSHFT
-&mo  NUMPAD  &kp LCTRL   &kp  LALT  &kp  LGUI                       &kp LGUI &mo  ARROWS  &kp  SPACE    &kp  BSPC  &kp  SPACE &kp  ENTER          &kp  LGUI   &kp  LALT  &kp  LG(LEFT)       &kp  LG(RIGHT)
+&mo  NUMPAD  &kp LCTRL   &kp  LALT  &kp  LGUI                       &kp LGUI &mo  ARROWS  &mo NUMROW    &kp  BSPC  &kp  SPACE &kp  ENTER          &kp  LGUI   &kp  LALT  &kp  LG(LEFT)       &kp  LG(RIGHT)
                         >;
                 };
 
